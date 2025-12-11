@@ -5,26 +5,26 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rda_python_template"
-version = "1.0.0"
+name = "GenTS_interface"
+version = "0.0.1"
 authors = [
-  { name="Zaihua Ji", email="zji@ucar.edu" },
+  { name="Jim Edwards", email="jedwards@ucar.edu" },
 ]
-description = "RDA Python code template to create new and modify existing other RDA python packages"
+description = "CESM3 interface to the GenTS tools"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.12"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved ::  Apache License",
     "Operating System :: OS Independent",
-    "Development Status :: 5 - Production/Stable",
+    "Development Status :: ",
 ]
 dependencies = [
-  "rda_python_common",
+  "GenTS",
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/NCAR/rda-python-template"
+"Homepage" = "https://github.com/ESMCI/GenTS_interface"
 
 [project.scripts]
-hello_world = "rda_python_template.hello_world:main"
+gents = "cesm3_interface.gents:main"

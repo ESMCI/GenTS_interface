@@ -1,0 +1,3 @@
+[submodule "GenTS"]
+	path = GenTS
+	url = https://github.com/AgentOxygen/GenTS

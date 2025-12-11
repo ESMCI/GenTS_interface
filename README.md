@@ -1,1 +1,1 @@
-RDA python code template to create new and modify existing RDA python packages.
+This is the CESM3 interface to the GenTS timeseries generation tools.
